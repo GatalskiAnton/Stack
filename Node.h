@@ -8,6 +8,6 @@ class Node{
 public :
     int data;
     Node* next;
-    Node(int _data, Node* _next == nullptr):data(_data), next(_next);
+    Node(int _data, Node* _next = nullptr):data(_data), next(_next){};
 };
 #endif //STACK_NODE_H
